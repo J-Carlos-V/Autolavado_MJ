@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head');-%>
+
+  <body>
+    <%- include('partials/navigation');-%>
+   
+
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          
+          <div class="carousel-item active" style="background-image: url('img/slider1.jpg')">
+            <div class="carousel-caption d-none d-md-block">            
+              <h3 class="display-4 text-slider">Tu Auto Dice Mucho de Ti</h3>
+            </div>
+          </div>
+          
+          <div class="carousel-item" style="background-image: url('img/slider3.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Sus Historias</h3>
+              <p class="lead">Lee las historias más ecalofriantes</p>
+            </div>
+          </div>
+          
+          <div class="carousel-item" style="background-image: url('img/slider2.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Y sus actos</h3>
+              <p class="lead">Documentales sobre la vida de estas personas</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </a>
+      </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Page Content -->
+    <section data-stellar-background-ratio="0.5">
+      <div class="container">
+           <div class="row">
+  
+                <div class="col-md-6 col-sm-12">
+                     <div class="about-info">
+                          <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+                               <h2 class="text-slider">Autolavado Express</h2>
+                          </div>
+  
+                          <div class="wow fadeInUp" data-wow-delay="0.4s">
+                               <p style="text-align: justify;"><strong>Car Wash "El Trapito"</strong>es un autolavado moderno, innovador y profesional, el cual cuenta con el mejor sistema automático de lavado express, al integrar alta tecnología nos permite también apoyar a nuestro medio ambiente, cuidando y ahorrando nuestro vital recurso, el agua, a través de un eficiente sistema de reciclado; brindando así en cada visita, una grata experiencia de RAPIDEZ, CALIDAD Y BUEN TRATO. </p>
+                               <p style="text-align: justify;">
+                                Tu auto te lo agradecerá, infinitamente limpio no importa cuánto tiempo llevan juntos recorrido carreteras, siempre lucirá como nuevo. Tú eliges el plan y nosotros lavamos tu auto todas las veces que quieras. 
+                               </p>
+                               <p style="text-align: justify;">
+                                Lavar el auto no sólo tiene fines estéticos, tiene fines prácticos y de conservación del mismo. Eso de que la "capa de polvo lo protege" es una tremenda falsedad. 
+                               </p>
+                               
+                          </div>
+                     </div>
+                </div>
+  
+                <div class="col-md-6 col-sm-12">
+                     <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
+                          <img src="img/img1.jpg" class="img-responsive" alt="" style="height: 400px; width: 500px;">
+                     </div>
+                     <br>
+                </div>
+  
+           </div>
+      </div>
+  </section>
+
+  <div class="container">
+    <div class="card mb-3" style="width: 100%; border-width: 0px; margin-top: 200px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="img/img2.jpg" class="card-img" alt="..." style="margin-top: 10px; height: 300px; width: 325px;">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+    
+                    <h4 class="card-title text-slider">No sólo para que se vea bonito</h4>
+                    <br>
+                    <p class="card-text" style="text-align: justify;">
+                      El estado del auto dirá casi de manera inmediata cómo ha sido su vida con el actual dueño, y a pesar de que es un aparato que se expone a situaciones extremas de temperatura y ambiente, puede casi conservarse como el día en que lo conducimos por primera vez.
+                    </p>
+                    <p class="card-text" style="text-align: justify;">
+                      Una cosa es ser exigente con el aspecto del automóvil, y otra cosa es descuidarse con uno mismo. Descuidar el interior del automóvil descuida nuestra salud personal, pasamos horas al interior de nuestro automóvil, como pasamos en nuestro dormitorio o lugares de nuestro hogar. En nuestro autolavado nosotros nos preocupamos por todos dentro y fuera del auto lucirá reluciente
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!--Footer-->
+    <%- include('partials/footer');-%>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
